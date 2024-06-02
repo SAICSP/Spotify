@@ -1,1 +1,3 @@
-# The Spotify Clone is made with front-end technologies like CSS,BootStrap (Framework) and HTML 
+# by Chenna Sai Prakash.
+
+The Spotify clone frontend offers a visually appealing interface reminiscent of the official Spotify platform. Despite lacking backend functionality, it provides users with a seamless browsing experience through various sections like "Recently Played," "Made for You," and "Trending Now." Each section features interactive cards displaying album artwork and track information. The sticky navigation bar ensures easy access to premium features and account settings. The footer provides essential company details and community links. Additionally, a fixed music player at the bottom allows users to control playback, adjust volume, and view track progress. Despite its static nature, the frontend design effectively mirrors the aesthetic and functionality of the Spotify application.
