@@ -1,0 +1,1 @@
+# The Spotify Clone is made with front-end technologies like CSS,BootStrap (Framework) and HTML 

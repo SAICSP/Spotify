@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option " style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option ">
+                        <img src="library_icon.png" alt="">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's findout some podcasts
+                        </p>
+                        <p class="box-p2">We'll update you on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="backward_icon.png" alt="">
+                    <img src="forward_icon.png">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-solid fa-circle-down"
+                            style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-solid fa-user nav-item "></i>
+                </div>
+            </div>
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="card1img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Top 50-Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+
+            <h2 id="showing">Made For Chenna Sai Prakash <a href="#"><span> &nbsp;Show all</span></a></h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="metamor.jpeg" class="card-img" alt="">
+                    <p class="card-title">METAMORPHOSIS</p>
+                    <p class="card-info">INTERWORLD</p>
+                </div>
+                <div class="card">
+                    <img src="divi.jpeg" class="card-img" alt="">
+                    <p class="card-title">Shape of You</p>
+                    <p class="card-info">Ed Sheeran</p>
+                </div>
+                <div class="card">
+                    <img src="stay.jpeg" class="card-img" alt="">
+                    <p class="card-title">Stay (with Justin Bieber)</p>
+                    <p class="card-info">The Kid LAROI,Justin Bieber</p>
+                </div>
+                <div class="card">
+                    <img src="golden.jpeg" class="card-img" alt="">
+                    <p class="card-title">Golden Hour</p>
+                    <p class="card-info">JVKE</p>
+                </div>
+                <div class="card">
+                    <img src="runningup.jpeg" class="card-img" alt="">
+                    <p class="card-title">Running Up That Hill</p>
+                    <p class="card-info">Kate Bush</p>
+                </div>
+                <div class="card">
+                    <img src="sahara.jpeg" class="card-img" alt="">
+                    <p class="card-title">Sahara</p>
+                    <p class="card-info">YHensonn</p>
+                </div>
+                <div class="card">
+                    <img src="livin.jpeg" class="card-img" alt="">
+                    <p class="card-title">Living Life ,In The Night</p>
+                    <p class="card-info">Cherriimoya,Sierra kidd</p>
+                </div>
+            </div>
+            <h2 id="showing">Trending now near to you <a href="#"><span> &nbsp;Show all</span></a></h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="drake.jpeg" class="card-img" alt="">
+                    <p class="card-title">God's Plan</p>
+                    <p class="card-info">Drake</p>
+                </div>
+                <div class="card">
+                    <img src="svt.jpeg" class="card-img" alt="">
+                    <p class="card-title">Save Your Tears </p>
+                    <p class="card-info">The Weekend</p>
+                </div>
+                <div class="card">
+                    <img src="svr.jpeg" class="card-img" alt="">
+                    <p class="card-title">7 rings</p>
+                    <p class="card-info">Ariana Grande</p>
+                </div>
+                <div class="card">
+                    <img src="sprint.jpeg" class="card-img" alt="">
+                    <p class="card-title">Sprinter</p>
+                    <p class="card-info">Dave ,Central Cee</p>
+                </div>
+                <div class="card">
+                    <img src="happier.jpeg  " class="card-img" alt="">
+                    <p class="card-title">Happier</p>
+                    <p class="card-info">Marshmello,Bastille</p>
+                </div>
+                <div class="card">
+                    <img src="duaa.jpeg" class="card-img" alt="">
+                    <p class="card-title">New Rules</p>
+                    <p class="card-info">Dua Lipa</p>
+                </div>
+                <div class="card">
+                    <img src="zayyn.jpeg" class="card-img" alt="">
+                    <p class="card-title">Dusk Till Down</p>
+                    <p class="card-info">Zayn,Sia</p>
+                </div>
+            </div>
+            <h2 id="showing">Featured Charts <a href="#"><span> &nbsp;Show all</span></a></h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="card5img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Top Songs Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="card6img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Top Songs India</p>
+                    <p class="card-info">Your weekly updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="card1img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Top Songs World</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="topaa.jpeg" class="card-img" alt="">
+                    <p class="card-title">Top Songs Australia</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="toparr.jpeg" class="card-img" alt="">
+                    <p class="card-title">Top Songs Argentina</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="footer">
+                <div class="section">
+                    <h3>Company</h3>
+                    <p>About us</p>
+                    <p>jobs</p>
+                </div>&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="section">
+                    <h3>Communities</h3>
+                    <p>Artists</p>
+                    <p>Vendors</p>
+                    <p>Creators</p>
+                </div>&nbsp;&nbsp;&nbsp;
+                <div class="section">
+                    <h3>Useful Links</h3>
+                    <a href="#">Support</a>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="often.jpeg" alt="" height="56px" width="56px">
+                <div class="anchors">
+                    <a href="#" style="opacity: 1;">Often</a><br>
+                    <a href="#" style="font-size: 13px;opacity:0.7">Weekend</a>
+                </div>
+                <div class="iconsofalbum">
+                    <img src="album_icon1.png" alt="">
+                    <img src="album_icon2.png" alt="">
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="player_icon1.png" class="player-control-icon" alt="">
+                    <img src="player_icon2.png" class="player-control-icon" alt="">
+                    <img src="player_icon3.png" class="player-control-icon" alt="" style="opacity:1;height:2rem">
+                    <img src="player_icon4.png" class="player-control-icon" alt="">
+                    <img src="player_icon5.png" class="player-control-icon" alt="">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" name="" id="" step="1">
+                    <span class="tot-time">2:12</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <img src="controls_icon1.png" alt="" srcset="">
+                <img src="controls_icon2.png" alt="" srcset="">
+                <img src="controls_icon3.png" alt="" srcset="">
+                <img src="controls_icon4.png" alt="" srcset="">
+                <img src="controls_icon5.png" alt="" srcset="">
+                <input type="range" min="0" max="100" class="soundbar">
+                <i class="fa-solid fa-up-right-and-down-left-from-center " style="opacity: 0.7;"></i>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
